@@ -32,7 +32,7 @@ export default function Portfolio() {
       {/* Header */}
       <header style={{ ...styles.header, ...(scrolled ? styles.headerScrolled : {}) }}>
         <div style={styles.logo}>
-          <span style={styles.logoText}>AB</span>
+          <span style={styles.logoText}>Aman</span>
           <span style={styles.logoName}>Portfolio</span>
         </div>
         <nav style={styles.nav}>
@@ -72,7 +72,7 @@ export default function Portfolio() {
           <h2 style={styles.sectionTitle}>About Me</h2>
           <div style={styles.divider} />
           <div style={styles.aboutCard}>
-            <div style={styles.avatarCircle}>AB</div>
+            <div style={styles.avatarCircle}>🧑‍💻</div>
             <div style={styles.aboutText}>
               <p style={styles.aboutPara}>
                 Hello! My name is <strong>Aman Badodiya</strong>. I am a BCA 2nd year student
@@ -156,7 +156,7 @@ export default function Portfolio() {
 
       {/* Footer */}
       <footer style={styles.footer}>
-        <p style={styles.footerText}>© 2025 Aman Badodiya · All Rights Reserved</p>
+        <p style={styles.footerText}>©2026 Aman Badodiya</p>
       </footer>
     </div>
   );
@@ -175,11 +175,11 @@ const styles = {
     top: 0,
     left: 0,
     right: 0,
-    zIndex: 100,
+    zIndex: 10,
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
-    padding: "14px 40px",
+    padding: "14px 4px",
     background: "rgba(77,153,224,0.95)",
     backdropFilter: "blur(10px)",
     transition: "box-shadow 0.3s",
@@ -237,7 +237,7 @@ const styles = {
     display: "inline-block",
     background: "rgba(77,153,224,0.12)",
     color: "#4d99e0",
-    fontWeight: 600,
+    fontWeight: 500,
     fontSize: 14,
     padding: "6px 18px",
     borderRadius: 20,
@@ -245,12 +245,10 @@ const styles = {
     border: "1px solid rgba(77,153,224,0.25)",
   },
   heroName: {
-    fontSize: "clamp(2.5rem, 6vw, 4rem)",
-    fontWeight: 800,
-    margin: "0 0 12px",
-    background: "linear-gradient(135deg, #1a6db5, #4d99e0)",
-    WebkitBackgroundClip: "text",
-    WebkitTextFillColor: "transparent",
+    fontSize: "clamp(2.0rem, 5vw, 99rem)",
+    fontWeight: 1000,
+    margin: "0 23 2px",
+  color: "#4d99e0"
   },
   heroSub: {
     fontSize: 20,
@@ -376,6 +374,7 @@ const styles = {
     background: "linear-gradient(135deg, #4d99e0, #2a80cc)",
     padding: "24px",
     textAlign: "center",
+    
   },
   footerText: { color: "#fff", margin: 0, fontWeight: 500, fontSize: 15 },
 };
